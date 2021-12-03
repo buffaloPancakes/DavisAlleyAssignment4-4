@@ -1,3 +1,4 @@
+```java
 public class JavaBot {
 
     private int xValue;
@@ -49,3 +50,4 @@ public class JavaBot {
         // Don't worry about this method until you get the other ones done.
     }
 }
+```
