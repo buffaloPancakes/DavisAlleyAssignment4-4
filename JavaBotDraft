@@ -1,0 +1,51 @@
+public class JavaBot {
+
+    private int xValue;
+    private int yValue;
+    private String name;
+    private int trips;
+
+    public JavaBot(int xVal, int yVal, String zVal, int other_val){
+        xVal = xValue;
+        yVal = xValue;
+        zVal = name;
+        other_val = trips;  // This value does not come over from the main method.  You can set it to zero up above
+        // and remove it from the constructor (both here inside the method and in the declaration/parameters)
+        // i.e. Each of the two bots are made with three parameters so you can't alter that.
+    }
+
+    public JavaBot(int xVal, int yVal, String two) {
+        // You can remove this.  Don't need two constructors as long as you fix the one up above.
+    }
+
+
+
+    public void moveX(int i) {
+        int xValue = i + 1;  // Increase xValue by i.  Not i + 1.  Also, you're increasing xValue,
+        // not resetting its value altogether.
+        trips++;
+        // You also need a print statement here to match the output you see in my example on Canvas.
+    }
+
+    public void moveY(int i) {
+        // Same as moveX
+        int yValue = i + 1;
+        trips++;
+
+    }
+
+    public int getTripNum() {
+        return trips;  // Good
+    }
+
+    public String getName() {
+        // Same as above
+    }
+
+    // Add your toString method here.  Follow the examples from the previous homework.
+    // Have it model the output you see in the Canvas example
+
+    public double distanceTo(JavaBot otherBot) {  // I renamed this for you
+        // Don't worry about this method until you get the other ones done.
+    }
+}
